@@ -1,1 +1,2406 @@
-<tr _ngcontent-ng-c2464413867="" role="row" mat-row="" data-qa="billing-payments-table-row" class="mat-mdc-row mdc-data-table__row cdk-row ng-star-inserted"><td _ngcontent-ng-c2464413867="" mat-cell="" class="mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-select mat-column-select ng-star-inserted" data-qa="billing-payments-cell-select"><span _ngcontent-ng-c2464413867="" class="flex flex-row items-center ng-star-inserted"><mat-checkbox _ngcontent-ng-c2464413867="" class="mat-mdc-checkbox mat-accent ng-star-inserted" id="mat-mdc-checkbox-5"><div mat-internal-form-field="" class="mdc-form-field mat-internal-form-field"><div class="mdc-checkbox"><div class="mat-mdc-checkbox-touch-target"></div><input type="checkbox" class="mdc-checkbox__native-control" id="mat-mdc-checkbox-5-input" tabindex="0"><div class="mdc-checkbox__ripple"></div><div class="mdc-checkbox__background"><svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" class="mdc-checkbox__checkmark"><path fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" class="mdc-checkbox__checkmark-path"></path></svg><div class="mdc-checkbox__mixedmark"></div></div><div mat-ripple="" class="mat-ripple mat-mdc-checkbox-ripple mat-focus-indicator"></div></div><label class="mdc-label" for="mat-mdc-checkbox-5-input"></label></div></mat-checkbox><!----><!----></span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></td><td _ngcontent-ng-c2464413867="" mat-cell="" class="mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-method mat-column-method ng-star-inserted" data-qa="billing-payments-cell-method"><!----><!----><!----><!----><!----><!----><span _ngcontent-ng-c2464413867="" class="method-content ng-star-inserted"><!----><!----> EFT<br _ngcontent-ng-c2464413867="" class="ng-star-inserted"> 11436157194 <!----><!----><!----></span><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></td><td _ngcontent-ng-c2464413867="" mat-cell="" class="mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-paymentDate mat-column-paymentDate ng-star-inserted" data-qa="billing-payments-cell-paymentDate"><!----><!----><!----><!----> 05/07/2026 <br _ngcontent-ng-c2464413867="" class="ng-star-inserted"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></td><td _ngcontent-ng-c2464413867="" mat-cell="" class="mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-payorName mat-column-payorName ng-star-inserted" data-qa="billing-payments-cell-payorName"><!----><!----><!----><!----><!----><!----> AARP Medicare Supplement/Fixed Indemnity by UHC <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></td><td _ngcontent-ng-c2464413867="" mat-cell="" class="mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-facilityName mat-column-facilityName ng-star-inserted" data-qa="billing-payments-cell-facilityName"><!----><!----><!----><!----><!----><!----><!----> Champion Eye - Champion Eyecare <!----><!----><!----><!----><!----><!----><!----><!----><!----></td><td _ngcontent-ng-c2464413867="" mat-cell="" class="mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-paymentAmount mat-column-paymentAmount ng-star-inserted" data-qa="billing-payments-cell-paymentAmount"><!----><!----><!----><!----><!----><!----><!----><!----> $1,548.03 <!----><!----><!----><!----><!----><!----><!----><!----></td><td _ngcontent-ng-c2464413867="" mat-cell="" class="mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-actions mat-column-actions ng-star-inserted mat-mdc-table-sticky mat-mdc-table-sticky-border-elem-right mat-elevation-z1" data-qa="billing-payments-cell-actions" style="right: 0px; z-index: 1;"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><span _ngcontent-ng-c2464413867="" class="flex-row justify-end ng-star-inserted"><!----><!----><!----><!----><pm-payment-row-actions-menu _ngcontent-ng-c2464413867="" class="ng-star-inserted"><span mattooltipposition="left" class="mat-mdc-tooltip-trigger inline-flex mat-mdc-tooltip-disabled"><button mat-icon-button="" aria-label="Actions" data-qa="billing-payments-actions-button" class="mat-mdc-menu-trigger mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base" mat-ripple-loader-uninitialized="" mat-ripple-loader-class-name="mat-mdc-button-ripple" mat-ripple-loader-centered="" aria-haspopup="menu" aria-expanded="false"><span class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple"></span><mat-icon role="img" class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">more_vert</mat-icon><span class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></button><!----></span><!----><mat-menu data-qa="billing-payments-actions-menu" class=""><!----></mat-menu></pm-payment-row-actions-menu><!----></span><!----></td><!----></tr>
+Loading locators from: C:\WolfDen\Work\Working\Apr2026\NexTech\locators\billing.json
+Loading locators from: C:\WolfDen\Work\Working\Apr2026\NexTech\locators\login.json
+Loading locators from: C:\WolfDen\Work\Working\Apr2026\NexTech\locators\navigation.json
+Loading locators from: C:\WolfDen\Work\Working\Apr2026\NexTech\locators\tables.json
+nextech execution started
+Initializing Chrome driver
+[SUCCESS] Driver initialized successfully
+RAW OUTPUT FOLDER = output\raw files\CHAMPION
+[SUCCESS] RECORDS_DB connection established
+EXISTING RECORD KEYS = 0
+Using FULL_URL: https://login.nextech.com/landing-page?iss=https:%2F%2Fprod-nextech.us.auth0.com%2F
+Opening URL: https://login.nextech.com/landing-page?iss=https:%2F%2Fprod-nextech.us.auth0.com%2F
+[DOM] Waiting for visible: //*[@id='continueButton']
+[SUCCESS] Optional step handled: Landing Continue
+[DOM] Waiting for presence: //*[@id='username']
+Email field ready
+[DOM] Trying primary XPath: //*[@id='username']
+[DOM] Waiting for visible: //*[@id='username']
+[SUCCESS] Typing successful
+[DOM] Trying primary XPath: //button[@type='submit']
+[DOM] Waiting for visible: //button[@type='submit']
+Clicking element
+[SUCCESS] Click successful
+[SUCCESS] Email submitted
+[DOM] Waiting for presence: //input[@type='password']
+Password field loaded
+[DOM] Trying primary XPath: //input[@type='password']
+[DOM] Waiting for visible: //input[@type='password']
+[SUCCESS] Typing successful
+[DOM] Trying primary XPath: //button[@type='submit']
+[DOM] Waiting for visible: //button[@type='submit']
+Clicking element
+[SUCCESS] Click successful
+[SUCCESS] Password submitted
+Waiting for dashboard...
+[DOM] Waiting for clickable element: //button[contains(@aria-label,'More') or .//span[contains(text(),'More')]]
+[SUCCESS] Dashboard loaded
+[DOM] Trying primary XPath: //button[contains(@aria-label,'More') or .//span[contains(text(),'More')]]
+[DOM] Waiting for visible: //button[contains(@aria-label,'More') or .//span[contains(text(),'More')]]
+Clicking element
+[WARNING] Normal click failed: Message: element click intercepted: Element is not clickable at point (40, 768)
+  (Session info: chrome=148.0.7778.168); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+        chromedriver!GetHandleVerifier [0x10c7123+10a23]
+        chromedriver!GetHandleVerifier [0x10c7254+10b54]
+        chromedriver!(No symbol) [0xee1e90]
+        chromedriver!(No symbol) [0xf310e8]
+        chromedriver!(No symbol) [0xf2f779]
+        chromedriver!(No symbol) [0xf2d565]
+        chromedriver!(No symbol) [0xf2c774]
+        chromedriver!(No symbol) [0xf22378]
+        chromedriver!(No symbol) [0xf4d78c]
+        chromedriver!(No symbol) [0xf21db4]
+        chromedriver!(No symbol) [0xf4d954]
+        chromedriver!(No symbol) [0xf6a936]
+        chromedriver!(No symbol) [0xf4d526]
+        chromedriver!(No symbol) [0xf208f9]
+        chromedriver!(No symbol) [0xf216b4]
+        chromedriver!GetHandleVerifier [0x1361ac4+2ab3c4]
+        chromedriver!GetHandleVerifier [0x135d0ed+2a69ed]
+        chromedriver!GetHandleVerifier [0x137e4f5+2c7df5]
+        chromedriver!GetHandleVerifier [0x10e1128+2aa28]
+        chromedriver!GetHandleVerifier [0x10e8bbd+324bd]
+        chromedriver!GetHandleVerifier [0x10cfb28+19428]
+        chromedriver!GetHandleVerifier [0x10cfcd5+195d5]
+        chromedriver!GetHandleVerifier [0x10b91cf+2acf]
+        KERNEL32!BaseThreadInitThunk [0x766b5d49+19]
+        ntdll!RtlInitializeExceptionChain [0x777ed83b+6b]
+        ntdll!RtlGetAppContainerNamedObjectPath [0x777ed7c1+231]
+
+[SUCCESS] JS Click successful
+[DOM] Waiting for visible: //div[contains(@class,'mat-mdc-menu-panel')]
+[SUCCESS] More menu opened
+[DOM] Trying primary XPath: //div[contains(@class,'mat-mdc-menu-panel')]//a[@role='menuitem']//span[normalize-space()='Billing']
+[DOM] Waiting for visible: //div[contains(@class,'mat-mdc-menu-panel')]//a[@role='menuitem']//span[normalize-space()='Billing']
+Clicking element
+[SUCCESS] Click successful
+[SUCCESS] Billing clicked
+[DOM] Waiting for URL to contain: AppointmentWorklist
+[SUCCESS] URL matched: https://pm.nextech.com/Billing/AppointmentWorklist
+Waiting for Payment section...
+[DOM] Waiting for clickable element: //button[.//span[normalize-space()='Payments']]
+Payment menu expanded? True
+Already expanded
+[DOM] Waiting for visible: //span[normalize-space()='Quick Payment Entry']
+[SUCCESS] Payment submenu loaded
+[DOM] Trying primary XPath: //a[.//span[normalize-space()='Payments']]
+[DOM] Waiting for visible: //a[.//span[normalize-space()='Payments']]
+Clicking element
+[SUCCESS] Click successful
+[SUCCESS] Inner Payment clicked
+Clearing all selected filter chips...
+No chips to clear
+Setting dropdown filter: Insurance - ERA
+[DOM] Waiting for overlay to disappear
+[DOM] Waiting for clickable element: //span[contains(normalize-space(),'Source')]
+[DOM] Waiting for visible: //span[normalize-space()='Insurance - ERA']
+[SUCCESS] Dropdown selected: Insurance - ERA
+[DOM] Waiting for overlay to disappear
+Setting dropdown filter: Select All
+[DOM] Waiting for overlay to disappear
+[DOM] Waiting for clickable element: //span[contains(normalize-space(),'Payment Method')]
+[DOM] Waiting for visible: //span[contains(@class,'nextech-listbox-select-all-option__label') and normalize-space()='Select All']
+[SUCCESS] Dropdown selected: Select All
+[DOM] Waiting for overlay to disappear
+Clicking Apply button...
+[DOM] Waiting for clickable element: //button[.//span[normalize-space()='Apply']]
+[SUCCESS] Apply clicked
+[SUCCESS] All filters applied
+[SUCCESS] Filters applied successfully
+Selecting ALL tab...
+[DOM] Trying primary XPath: //*[@data-qa='billing-payments-tab-All']
+[DOM] Waiting for visible: //*[@data-qa='billing-payments-tab-All']
+Clicking element
+[SUCCESS] Click successful
+[SUCCESS] ALL tab selected
+Checking page size...
+Current page size: 50
+[SUCCESS] Page size already set to 50
+
+========== PAGE 1 ==========
+Starting table scrape: payment_table
+[DOM] Waiting for visible: //div[contains(.,'Payment Method') and contains(.,'Payment Date')]
+[SUCCESS] Table loaded
+Checking page size...
+Current page size: 50
+[SUCCESS] Page size already set to 50
+Waiting for total records text...
+Total text found: 1 – 50 of 10067
+[SUCCESS] Total filtered records: 10067
+TOTAL FILTERED RECORDS = 10067
+AG ROW COUNT = 0
+Rows detected: 52
+[SUCCESS] Total rows scraped: 50
+Page 1 rows = 50
+[RAW SKIPPED - PENDING ERA] 882613401050509
+[RAW SKIPPED - PENDING ERA] 11441840114
+[RAW SKIPPED - PENDING ERA] 882613301006918
+[INSERTED] 826133000239141 | 2026-05-18 | 1123.8
+[RAW] Opened menu for 826133000239141
+[RAW DEBUG] Clicking raw button for 826133000239141
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826133000239141
+[SUCCESS] [RAW SAVED] 826133000239141_a2e0dbd7-7453-402d-a556-cdaedae830b2.txt
+[RAW] Returned to main window
+[INSERTED] 819051207 | 2026-05-18 | 14213.66
+[RAW] Opened menu for 819051207
+[RAW DEBUG] Clicking raw button for 819051207
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 819051207
+[SUCCESS] [RAW SAVED] 819051207_53265e0f-ceee-44d8-bf33-5c13a61a195f.txt
+[RAW] Returned to main window
+[INSERTED] 349410942 | 2026-05-18 | 0.0
+[RAW] Opened menu for 349410942
+[RAW DEBUG] Clicking raw button for 349410942
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349410942
+[SUCCESS] [RAW SAVED] 349410942_03b4d50a-68a6-4c38-9106-ddf532a43e2b.txt
+[RAW] Returned to main window
+[INSERTED] 321037191 | 2026-05-18 | 0.0
+[RAW] Opened menu for 321037191
+[RAW DEBUG] Clicking raw button for 321037191
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 321037191
+[SUCCESS] [RAW SAVED] 321037191_32e7db94-024c-4cc6-9b2b-258d4709f939.txt
+[RAW] Returned to main window
+[INSERTED] 822464780 | 2026-05-18 | 653.07
+[RAW] Opened menu for 822464780
+[RAW DEBUG] Clicking raw button for 822464780
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 822464780
+[SUCCESS] [RAW SAVED] 822464780_272e7166-3970-43a6-87d6-8dd8cb1d3023.txt
+[RAW] Returned to main window
+[INSERTED] 2523325610 | 2026-05-18 | 311.05
+[RAW] Opened menu for 2523325610
+[RAW DEBUG] Clicking raw button for 2523325610
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2523325610
+[SUCCESS] [RAW SAVED] 2523325610_94093302-5507-43a1-9f52-ea038439cfdc.txt
+[RAW] Returned to main window
+[INSERTED] V3239292 | 2026-05-18 | 816.14
+[RAW] Opened menu for V3239292
+[RAW DEBUG] Clicking raw button for V3239292
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V3239292
+[SUCCESS] [RAW SAVED] V3239292_89c177ff-566c-4225-aad3-6e3b19080c1b.txt
+[RAW] Returned to main window
+[INSERTED] 53894352 | 2026-05-18 | 80.1
+[RAW] Opened menu for 53894352
+[RAW DEBUG] Clicking raw button for 53894352
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 53894352
+[SUCCESS] [RAW SAVED] 53894352_51c48cf7-7f21-4579-b17e-406ad4e79e0c.txt
+[RAW] Returned to main window
+[INSERTED] 600300875910 | 2026-05-15 | 107.41
+[RAW] Opened menu for 600300875910
+[RAW DEBUG] Clicking raw button for 600300875910
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 600300875910
+[SUCCESS] [RAW SAVED] 600300875910_cffcbc3c-0ff1-4ac3-aa23-3298f54244d5.txt
+[RAW] Returned to main window
+[INSERTED] 260512090053193 | 2026-05-15 | 711.18
+[RAW] Opened menu for 260512090053193
+[RAW DEBUG] Clicking raw button for 260512090053193
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260512090053193
+[SUCCESS] [RAW SAVED] 260512090053193_23b25652-3184-4417-8661-da9b63f8b6d9.txt
+[RAW] Returned to main window
+[INSERTED] 349404568 | 2026-05-15 | 0.0
+[RAW] Opened menu for 349404568
+[RAW DEBUG] Clicking raw button for 349404568
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349404568
+[SUCCESS] [RAW SAVED] 349404568_42a70201-1412-4aae-934b-08811030f804.txt
+[RAW] Returned to main window
+[INSERTED] 2523293373 | 2026-05-15 | 332.33
+[RAW] Opened menu for 2523293373
+[RAW DEBUG] Clicking raw button for 2523293373
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2523293373
+[SUCCESS] [RAW SAVED] 2523293373_8efbb76a-f15a-42ff-ab97-af2a10e3bf73.txt
+[RAW] Returned to main window
+[INSERTED] 53836198 | 2026-05-15 | 0.0
+[RAW] Opened menu for 53836198
+[RAW DEBUG] Clicking raw button for 53836198
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 53836198
+[SUCCESS] [RAW SAVED] 53836198_105e8955-7794-4403-8af4-c97e915aabee.txt
+[RAW] Returned to main window
+[INSERTED] 11439692250 | 2026-05-14 | 919.95
+[RAW] Opened menu for 11439692250
+[RAW DEBUG] Clicking raw button for 11439692250
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11439692250
+[SUCCESS] [RAW SAVED] 11439692250_d34cab51-73a2-4101-b092-d52c67c749c6.txt
+[RAW] Returned to main window
+[RAW SKIPPED - PENDING ERA] 187727515260515
+[RAW SKIPPED - PENDING ERA] 187727514260515
+[INSERTED] 819034202 | 2026-05-14 | 1720.92
+[RAW] Opened menu for 819034202
+[RAW DEBUG] Clicking raw button for 819034202
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 819034202
+[SUCCESS] [RAW SAVED] 819034202_f697d07a-e00c-4039-9261-9e83955ab253.txt
+[RAW] Returned to main window
+[INSERTED] V3146497 | 2026-05-14 | 4384.51
+[RAW] Opened menu for V3146497
+[RAW DEBUG] Clicking raw button for V3146497
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V3146497
+[SUCCESS] [RAW SAVED] V3146497_19d3d701-72f1-436c-a59a-fc9eabae31cd.txt
+[RAW] Returned to main window
+[INSERTED] W359325848 | 2026-05-14 | 0.0
+[RAW] Opened menu for W359325848
+[RAW DEBUG] Clicking raw button for W359325848
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W359325848
+[SUCCESS] [RAW SAVED] W359325848_e314a006-ff31-44ed-9805-d6a3de869b4c.txt
+[RAW] Returned to main window
+[INSERTED] W359325847 | 2026-05-14 | 772.67
+[RAW] Opened menu for W359325847
+[RAW DEBUG] Clicking raw button for W359325847
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W359325847
+[SUCCESS] [RAW SAVED] W359325847_10d8ecf2-f850-4d4b-843b-891aeaba91ed.txt
+[RAW] Returned to main window
+[INSERTED] 882612701044281 | 2026-05-13 | 475.79
+[RAW] Opened menu for 882612701044281
+[RAW DEBUG] Clicking raw button for 882612701044281
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882612701044281
+[SUCCESS] [RAW SAVED] 882612701044281_9f91b364-3180-42bb-92e7-4324033c1141.txt
+[RAW] Returned to main window
+[INSERTED] 120083761 | 2026-05-13 | 85.31
+[RAW] Opened menu for 120083761
+[RAW DEBUG] Clicking raw button for 120083761
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 120083761
+[SUCCESS] [RAW SAVED] 120083761_efeac4ae-46bd-489e-bd66-e276288b9a31.txt
+[RAW] Returned to main window
+[INSERTED] 190452242 | 2026-05-13 | 488.28
+[RAW] Opened menu for 190452242
+[RAW DEBUG] Clicking raw button for 190452242
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 190452242
+[SUCCESS] [RAW SAVED] 190452242_4a8726b1-9157-4664-ba0b-f3bbdf3dedb8.txt
+[RAW] Returned to main window
+[INSERTED] 851100882 | 2026-05-13 | 112.93
+[RAW] Opened menu for 851100882
+[RAW DEBUG] Clicking raw button for 851100882
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 851100882
+[SUCCESS] [RAW SAVED] 851100882_bb57c1b4-5ed2-470e-b7a0-9d2a2fbf2d70.txt
+[RAW] Returned to main window
+[INSERTED] 705907638 | 2026-05-13 | 1018.97
+[RAW] Opened menu for 705907638
+[RAW DEBUG] Clicking raw button for 705907638
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 705907638
+[SUCCESS] [RAW SAVED] 705907638_43e1d8f0-f8c0-42ee-9bc1-51579992299c.txt
+[RAW] Returned to main window
+[INSERTED] 213128419 | 2026-05-13 | 4103.65
+[RAW] Opened menu for 213128419
+[RAW DEBUG] Clicking raw button for 213128419
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 213128419
+[SUCCESS] [RAW SAVED] 213128419_0a559ab3-252c-461b-af77-52b80e51a643.txt
+[RAW] Returned to main window
+[INSERTED] 423676743 | 2026-05-13 | 515.81
+[RAW] Opened menu for 423676743
+[RAW DEBUG] Clicking raw button for 423676743
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 423676743
+[SUCCESS] [RAW SAVED] 423676743_8fc609b4-5d4b-42fe-b0c7-41fde271a49e.txt
+[RAW] Returned to main window
+[INSERTED] 260513190194195 | 2026-05-13 | 0.0
+[RAW] Opened menu for 260513190194195
+[RAW DEBUG] Clicking raw button for 260513190194195
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260513190194195
+[SUCCESS] [RAW SAVED] 260513190194195_e3e90592-ab4e-493c-af67-e701f277d710.txt
+[RAW] Returned to main window
+[INSERTED] 260513190186950 | 2026-05-13 | 0.0
+[RAW] Opened menu for 260513190186950
+[RAW DEBUG] Clicking raw button for 260513190186950
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260513190186950
+[SUCCESS] [RAW SAVED] 260513190186950_c1315888-931f-46ef-99a6-8a4acf16c0e0.txt
+[RAW] Returned to main window
+[INSERTED] 610069444286 | 2026-05-13 | 0.0
+[RAW] Opened menu for 610069444286
+[RAW DEBUG] Clicking raw button for 610069444286
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 610069444286
+[SUCCESS] [RAW SAVED] 610069444286_6d18d570-f8ba-4dd5-b722-0678fcb5882f.txt
+[RAW] Returned to main window
+[INSERTED] 349391133 | 2026-05-13 | 0.0
+[RAW] Opened menu for 349391133
+[RAW DEBUG] Clicking raw button for 349391133
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349391133
+[SUCCESS] [RAW SAVED] 349391133_c2f82567-fdad-4824-b666-32260e15285f.txt
+[RAW] Returned to main window
+[INSERTED] 819025233 | 2026-05-13 | 335.21
+[RAW] Opened menu for 819025233
+[RAW DEBUG] Clicking raw button for 819025233
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 819025233
+[SUCCESS] [RAW SAVED] 819025233_1ca1e31a-412d-417d-a830-3fccfa6f0f9d.txt
+[RAW] Returned to main window
+[INSERTED] 822431403 | 2026-05-13 | 37.22
+[RAW] Opened menu for 822431403
+[RAW DEBUG] Clicking raw button for 822431403
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 822431403
+[SUCCESS] [RAW SAVED] 822431403_8285a54e-cbfc-4f3e-89bb-06cf56cde11e.txt
+[RAW] Returned to main window
+[INSERTED] 2523206921 | 2026-05-13 | 156.59
+[RAW] Opened menu for 2523206921
+[RAW DEBUG] Clicking raw button for 2523206921
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2523206921
+[SUCCESS] [RAW SAVED] 2523206921_bc211348-3229-49f4-b25b-2b29391b1261.txt
+[RAW] Returned to main window
+[RAW SKIPPED - PENDING ERA] 882141999
+[INSERTED] 882612601011155 | 2026-05-12 | 1561.39
+[RAW] Opened menu for 882612601011155
+[RAW DEBUG] Clicking raw button for 882612601011155
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882612601011155
+[SUCCESS] [RAW SAVED] 882612601011155_a7409c57-bcb8-489f-b983-63d8bcf8499d.txt
+[RAW] Returned to main window
+[INSERTED] 20260506107005620EZPS0 | 2026-05-12 | 0.0
+[RAW] Opened menu for 20260506107005620EZPS0
+[RAW DEBUG] Clicking raw button for 20260506107005620EZPS0
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 20260506107005620EZPS0
+[SUCCESS] [RAW SAVED] 20260506107005620EZPS0_b1e5b945-2d45-4e50-ac39-8ec945ca1930.txt
+[RAW] Returned to main window
+[INSERTED] 819016607 | 2026-05-12 | 11453.18
+[RAW] Opened menu for 819016607
+[RAW DEBUG] Clicking raw button for 819016607
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 819016607
+[SUCCESS] [RAW SAVED] 819016607_6e54ff0c-da40-4b85-b118-60600cc6300d.txt
+[RAW] Returned to main window
+[INSERTED] 881992711 | 2026-05-12 | 33.04
+[RAW] Opened menu for 881992711
+[RAW DEBUG] Clicking raw button for 881992711
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 881992711
+[SUCCESS] [RAW SAVED] 881992711_a7867cff-b913-4bd7-9100-3af39dd1b48d.txt
+[RAW] Returned to main window
+[INSERTED] 822419688 | 2026-05-12 | 518.84
+[RAW] Opened menu for 822419688
+[RAW DEBUG] Clicking raw button for 822419688
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 822419688
+[SUCCESS] [RAW SAVED] 822419688_c61f54f1-4002-4806-8a09-e348a17dc757.txt
+[RAW] Returned to main window
+[INSERTED] C0085210962 | 2026-05-12 | 0.0
+[RAW] Opened menu for C0085210962
+[RAW DEBUG] Clicking raw button for C0085210962
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for C0085210962
+[SUCCESS] [RAW SAVED] C0085210962_7bdcfdc1-2edf-4643-bc35-f28ac34a7bbc.txt
+[RAW] Returned to main window
+[INSERTED] C0085210961 | 2026-05-12 | 0.0
+[RAW] Opened menu for C0085210961
+[RAW DEBUG] Clicking raw button for C0085210961
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for C0085210961
+[SUCCESS] [RAW SAVED] C0085210961_3a5035bc-83e5-4ecd-9c05-7566bb60d968.txt
+[RAW] Returned to main window
+[INSERTED] C0085210963 | 2026-05-12 | 0.0
+[RAW] Opened menu for C0085210963
+[RAW DEBUG] Clicking raw button for C0085210963
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for C0085210963
+[SUCCESS] [RAW SAVED] C0085210963_b22516c2-07dc-49f7-9742-86b6e61d96a7.txt
+[RAW] Returned to main window
+[INSERTED] V3002492 | 2026-05-12 | 58.8
+[RAW] Opened menu for V3002492
+[RAW DEBUG] Clicking raw button for V3002492
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V3002492
+[SUCCESS] [RAW SAVED] V3002492_e45c985d-adc6-4bb6-893f-7781194ca526.txt
+[RAW] Returned to main window
+[INSERTED] 826126000219318 | 2026-05-11 | 496.91
+[RAW] Opened menu for 826126000219318
+[RAW DEBUG] Clicking raw button for 826126000219318
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826126000219318
+[SUCCESS] [RAW SAVED] 826126000219318_f4278d7d-61c7-43a3-a151-337f5dfd62fc.txt
+[RAW] Returned to main window
+[INSERTED] 826126000219313 | 2026-05-11 | 103.42
+[RAW] Opened menu for 826126000219313
+[RAW DEBUG] Clicking raw button for 826126000219313
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826126000219313
+[SUCCESS] [RAW SAVED] 826126000219313_c01e2078-75ca-48f1-b9b3-6f09a181c484.txt
+[RAW] Returned to main window
+[INSERTED] 349377457 | 2026-05-11 | 0.0
+[RAW] Opened menu for 349377457
+[RAW DEBUG] Clicking raw button for 349377457
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349377457
+[SUCCESS] [RAW SAVED] 349377457_8d1b3406-3afb-408b-bbb9-d794461a37af.txt
+[RAW] Returned to main window
+NEW RECORDS = 44
+SKIPPED RECORDS = 0
+TOTAL MASTER ROWS = 44
+
+Checking NEXT button...
+Current range: 
+NEXT clicked
+New range: 51 – 100 of 10067
+
+========== PAGE 2 ==========
+Starting table scrape: payment_table
+[DOM] Waiting for visible: //div[contains(.,'Payment Method') and contains(.,'Payment Date')]
+[SUCCESS] Table loaded
+Checking page size...
+Current page size: 50
+[SUCCESS] Page size already set to 50
+Waiting for total records text...
+Total text found: 51 – 100 of 10067
+[SUCCESS] Total filtered records: 10067
+TOTAL FILTERED RECORDS = 10067
+AG ROW COUNT = 0
+Rows detected: 52
+[SUCCESS] Total rows scraped: 50
+Page 2 rows = 50
+[INSERTED] 2523136071 | 2026-05-11 | 312.46
+[RAW] Opened menu for 2523136071
+[RAW DEBUG] Clicking raw button for 2523136071
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2523136071
+[SUCCESS] [RAW SAVED] 2523136071_6e0e6778-25be-4bcd-b5e0-2b1263d2fb27.txt
+[RAW] Returned to main window
+[INSERTED] V2909556 | 2026-05-11 | 624.94
+[RAW] Opened menu for V2909556
+[RAW DEBUG] Clicking raw button for V2909556
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V2909556
+[SUCCESS] [RAW SAVED] V2909556_1895e88d-f723-49ae-87f8-8ed00df9f09e.txt
+[RAW] Returned to main window
+[INSERTED] 187228400260510 | 2026-05-09 | 13.04
+[RAW] Opened menu for 187228400260510
+[RAW DEBUG] Clicking raw button for 187228400260510
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 187228400260510
+[SUCCESS] [RAW SAVED] 187228400260510_350799ed-a8e3-4a0f-b599-396c17e2ccca.txt
+[RAW] Returned to main window
+[INSERTED] 01693290 | 2026-05-08 | 101.26
+[RAW] Opened menu for 01693290
+[RAW DEBUG] Clicking raw button for 01693290
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 01693290
+[SUCCESS] [RAW SAVED] 01693290_ab01f49c-953e-47bf-95b3-b52a7ba4ff97.txt
+[RAW] Returned to main window
+[INSERTED] 260505090055658 | 2026-05-08 | 263.19
+[RAW] Opened menu for 260505090055658
+[RAW DEBUG] Clicking raw button for 260505090055658
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260505090055658
+[SUCCESS] [RAW SAVED] 260505090055658_bda257a6-4cfe-490f-a261-f74b06fb1cd3.txt
+[RAW] Returned to main window
+[INSERTED] 187120673260509 | 2026-05-08 | 98.2
+[RAW] Opened menu for 187120673260509
+[RAW DEBUG] Clicking raw button for 187120673260509
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 187120673260509
+[SUCCESS] [RAW SAVED] 187120673260509_0be1e4eb-7edb-437a-944d-ef25f8e29253.txt
+[RAW] Returned to main window
+[INSERTED] 2523116330 | 2026-05-08 | 65.0
+[RAW] Opened menu for 2523116330
+[RAW DEBUG] Clicking raw button for 2523116330
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2523116330
+[SUCCESS] [RAW SAVED] 2523116330_10bcd363-579c-4425-bb94-eab09fb468df.txt
+[RAW] Returned to main window
+[INSERTED] 11436157194 | 2026-05-07 | 1548.03
+[RAW] Opened menu for 11436157194
+[RAW DEBUG] Clicking raw button for 11436157194
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11436157194
+[SUCCESS] [RAW SAVED] 11436157194_c2185427-9a2a-47c0-9ea3-e8f7207a77ff.txt
+[RAW] Returned to main window
+[INSERTED] 882612201015484 | 2026-05-07 | 702.45
+[RAW] Opened menu for 882612201015484
+[RAW DEBUG] Clicking raw button for 882612201015484
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882612201015484
+[SUCCESS] [RAW SAVED] 882612201015484_d6899bc3-1d8a-4bde-bdca-8c5c91cc2aea.txt
+[RAW] Returned to main window
+[INSERTED] 349363649 | 2026-05-07 | 0.0
+[RAW] Opened menu for 349363649
+[RAW DEBUG] Clicking raw button for 349363649
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349363649
+[SUCCESS] [RAW SAVED] 349363649_944a2a88-96c3-4e7f-9f97-546c6d44e0c9.txt
+[RAW] Returned to main window
+[INSERTED] 880089453 | 2026-05-07 | 92.53
+[RAW] Opened menu for 880089453
+[RAW DEBUG] Clicking raw button for 880089453
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 880089453
+[SUCCESS] [RAW SAVED] 880089453_01325df5-4f28-403a-b59a-1cceca045bbe.txt
+[RAW] Returned to main window
+[INSERTED] V2815896 | 2026-05-07 | 471.15
+[RAW] Opened menu for V2815896
+[RAW DEBUG] Clicking raw button for V2815896
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V2815896
+[SUCCESS] [RAW SAVED] V2815896_0adb0e9c-0f7e-4b9e-9873-e45fa4f6d24a.txt
+[RAW] Returned to main window
+[INSERTED] W358642232 | 2026-05-07 | 0.0
+[RAW] Opened menu for W358642232
+[RAW DEBUG] Clicking raw button for W358642232
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W358642232
+[SUCCESS] [RAW SAVED] W358642232_aa0d3099-087b-4f79-8981-403a35497ddb.txt
+[RAW] Returned to main window
+[INSERTED] W358642231 | 2026-05-07 | 1118.57
+[RAW] Opened menu for W358642231
+[RAW DEBUG] Clicking raw button for W358642231
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W358642231
+[SUCCESS] [RAW SAVED] W358642231_8a7c6fcf-4d8c-43bd-ac74-fc0070fbd277.txt
+[RAW] Returned to main window
+[INSERTED] 11435476988 | 2026-05-06 | 30.73
+[RAW] Opened menu for 11435476988
+[RAW DEBUG] Clicking raw button for 11435476988
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11435476988
+[SUCCESS] [RAW SAVED] 11435476988_aa8c8db8-6776-40b0-b1e1-9b2e76721e5c.txt
+[RAW] Returned to main window
+[INSERTED] 882612001007794 | 2026-05-06 | 3455.16
+[RAW] Opened menu for 882612001007794
+[RAW DEBUG] Clicking raw button for 882612001007794
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882612001007794
+[SUCCESS] [RAW SAVED] 882612001007794_1f3bf366-7590-48fb-b32d-a9301afd3683.txt
+[RAW] Returned to main window
+[INSERTED] 190446284 | 2026-05-06 | 677.12
+[RAW] Opened menu for 190446284
+[RAW DEBUG] Clicking raw button for 190446284
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 190446284
+[SUCCESS] [RAW SAVED] 190446284_c13dfc25-278a-4def-a9c2-407cd6121298.txt
+[RAW] Returned to main window
+[INSERTED] 130412428 | 2026-05-06 | 39.46
+[RAW] Opened menu for 130412428
+[RAW DEBUG] Clicking raw button for 130412428
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 130412428
+[SUCCESS] [RAW SAVED] 130412428_d5401774-71e7-4e1f-ad48-d1c07e724e5e.txt
+[RAW] Returned to main window
+[INSERTED] 423670142 | 2026-05-06 | 409.96
+[RAW] Opened menu for 423670142
+[RAW DEBUG] Clicking raw button for 423670142
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 423670142
+[SUCCESS] [RAW SAVED] 423670142_055feeb5-689b-4d03-81a8-ff6ee2723567.txt
+[RAW] Returned to main window
+[INSERTED] 705899265 | 2026-05-06 | 1635.99
+[RAW] Opened menu for 705899265
+[RAW DEBUG] Clicking raw button for 705899265
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 705899265
+[SUCCESS] [RAW SAVED] 705899265_f63b5708-469a-4e6b-81cc-15007a48828f.txt
+[RAW] Returned to main window
+[INSERTED] 851098789 | 2026-05-06 | 268.99
+[RAW] Opened menu for 851098789
+[RAW DEBUG] Clicking raw button for 851098789
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 851098789
+[SUCCESS] [RAW SAVED] 851098789_cd392375-124e-4173-8d3b-923f09a02c50.txt
+[RAW] Returned to main window
+[INSERTED] 213112310 | 2026-05-06 | 6934.43
+[RAW] Opened menu for 213112310
+[RAW DEBUG] Clicking raw button for 213112310
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 213112310
+[SUCCESS] [RAW SAVED] 213112310_60d3bbac-c1f8-4aba-a571-341879720f72.txt
+[RAW] Returned to main window
+[INSERTED] 260506190157269 | 2026-05-06 | 0.0
+[RAW] Opened menu for 260506190157269
+[RAW DEBUG] Clicking raw button for 260506190157269
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260506190157269
+[SUCCESS] [RAW SAVED] 260506190157269_8114d1d0-4343-482d-800c-ede61962a079.txt
+[RAW] Returned to main window
+[INSERTED] 603901353231 | 2026-05-06 | 78.6
+[RAW] Opened menu for 603901353231
+[RAW DEBUG] Clicking raw button for 603901353231
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 603901353231
+[SUCCESS] [RAW SAVED] 603901353231_cba85b44-3ca8-4d2f-b994-808c8e8ac88b.txt
+[RAW] Returned to main window
+[INSERTED] 260506190157270 | 2026-05-06 | 0.0
+[RAW] Opened menu for 260506190157270
+[RAW DEBUG] Clicking raw button for 260506190157270
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260506190157270
+[SUCCESS] [RAW SAVED] 260506190157270_6be7704f-bdf0-4064-b712-2887439fe2b0.txt
+[RAW] Returned to main window
+[INSERTED] 260506190167582 | 2026-05-06 | 0.0
+[RAW] Opened menu for 260506190167582
+[RAW DEBUG] Clicking raw button for 260506190167582
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260506190167582
+[SUCCESS] [RAW SAVED] 260506190167582_52a918ee-8b98-4581-9ae4-e97abd8c4524.txt
+[RAW] Returned to main window
+[INSERTED] 260506190157227 | 2026-05-06 | 0.0
+[RAW] Opened menu for 260506190157227
+[RAW DEBUG] Clicking raw button for 260506190157227
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260506190157227
+[SUCCESS] [RAW SAVED] 260506190157227_cad0d242-98e3-4f8c-8c58-7cffbc8ee86f.txt
+[RAW] Returned to main window
+[INSERTED] NO-PAY-202605060011474 | 2026-05-06 | 0.0
+[RAW] Opened menu for NO-PAY-202605060011474
+[RAW DEBUG] Clicking raw button for NO-PAY-202605060011474
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for NO-PAY-202605060011474
+[SUCCESS] [RAW SAVED] NO-PAY-202605060011474_8e2654df-d91d-47cb-826e-0d5b9e6516b2.txt
+[RAW] Returned to main window
+[INSERTED] 349357051 | 2026-05-06 | 0.0
+[RAW] Opened menu for 349357051
+[RAW DEBUG] Clicking raw button for 349357051
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349357051
+[SUCCESS] [RAW SAVED] 349357051_9f27b2ee-9393-46da-91f0-c28eb4a80a44.txt
+[RAW] Returned to main window
+[INSERTED] 879249581 | 2026-05-06 | 25.33
+[RAW] Opened menu for 879249581
+[RAW DEBUG] Clicking raw button for 879249581
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 879249581
+[SUCCESS] [RAW SAVED] 879249581_c8b64a11-3b1b-4278-ac4e-5a52d53a8507.txt
+[RAW] Returned to main window
+[INSERTED] 879194351 | 2026-05-06 | 92.53
+[RAW] Opened menu for 879194351
+[RAW DEBUG] Clicking raw button for 879194351
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 879194351
+[SUCCESS] [RAW SAVED] 879194351_1da7fb7b-ef4d-4675-b98c-977df64db6de.txt
+[RAW] Returned to main window
+[INSERTED] 2523038384 | 2026-05-06 | 116.48
+[RAW] Opened menu for 2523038384
+[RAW DEBUG] Clicking raw button for 2523038384
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2523038384
+[SUCCESS] [RAW SAVED] 2523038384_64db7d31-3c66-4f34-9f35-c96d914c8aa2.txt
+[RAW] Returned to main window
+[INSERTED] 2523067476 | 2026-05-06 | 32.11
+[RAW] Opened menu for 2523067476
+[RAW DEBUG] Clicking raw button for 2523067476
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2523067476
+[SUCCESS] [RAW SAVED] 2523067476_5e3a4f49-7454-439f-b382-5ba6fda01a49.txt
+[RAW] Returned to main window
+[INSERTED] V2742949 | 2026-05-06 | 266.11
+[RAW] Opened menu for V2742949
+[RAW DEBUG] Clicking raw button for V2742949
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V2742949
+[SUCCESS] [RAW SAVED] V2742949_76567b53-6f9c-4277-b842-9a0244ae0575.txt
+[RAW] Returned to main window
+[INSERTED] UH07810032162700200846975 | 2026-05-05 | 125.3
+[RAW] Opened menu for UH07810032162700200846975
+[RAW DEBUG] Clicking raw button for UH07810032162700200846975
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for UH07810032162700200846975
+[SUCCESS] [RAW SAVED] UH07810032162700200846975_4a60b190-19b2-4727-9b1a-07080c6fa58a.txt
+[RAW] Returned to main window
+[INSERTED] 349350450 | 2026-05-05 | 0.0
+[RAW] Opened menu for 349350450
+[RAW DEBUG] Clicking raw button for 349350450
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349350450
+[SUCCESS] [RAW SAVED] 349350450_ec893244-1cff-4e99-bed0-9c1305ec7828.txt
+[RAW] Returned to main window
+[INSERTED] 818977757 | 2026-05-05 | 53.36
+[RAW] Opened menu for 818977757
+[RAW DEBUG] Clicking raw button for 818977757
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818977757
+[SUCCESS] [RAW SAVED] 818977757_95fc10db-5339-4b89-84d7-bd07b490a426.txt
+[RAW] Returned to main window
+[RAW SKIPPED - PENDING ERA] X318629031
+[INSERTED] 2523002960 | 2026-05-05 | 1023.51
+[RAW] Opened menu for 2523002960
+[RAW DEBUG] Clicking raw button for 2523002960
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2523002960
+[SUCCESS] [RAW SAVED] 2523002960_6d025495-1c93-4efd-8250-0c8b3d89cbf7.txt
+[RAW] Returned to main window
+[INSERTED] 826119000047382 | 2026-05-04 | 6.42
+[RAW] Opened menu for 826119000047382
+[RAW DEBUG] Clicking raw button for 826119000047382
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826119000047382
+[SUCCESS] [RAW SAVED] 826119000047382_cd041a06-16e4-4087-84b2-001e6ad57dfc.txt
+[RAW] Returned to main window
+[INSERTED] 260430090063404 | 2026-05-04 | 793.81
+[RAW] Opened menu for 260430090063404
+[RAW DEBUG] Clicking raw button for 260430090063404
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260430090063404
+[SUCCESS] [RAW SAVED] 260430090063404_28e86cc1-f68e-42bf-846c-144750a96c7f.txt
+[RAW] Returned to main window
+[INSERTED] 818968526 | 2026-05-04 | 2210.51
+[RAW] Opened menu for 818968526
+[RAW DEBUG] Clicking raw button for 818968526
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818968526
+[SUCCESS] [RAW SAVED] 818968526_3b33a8ab-1c41-454a-b07a-3c2bde5cad55.txt
+[RAW] Returned to main window
+[INSERTED] 186611223260504 | 2026-05-03 | 92.53
+[RAW] Opened menu for 186611223260504
+[RAW DEBUG] Clicking raw button for 186611223260504
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 186611223260504
+[SUCCESS] [RAW SAVED] 186611223260504_f7356370-fa9c-47fe-8c54-cbf2a2782f3e.txt
+[RAW] Returned to main window
+[INSERTED] 186497760260503 | 2026-05-02 | 280.15
+[RAW] Opened menu for 186497760260503
+[RAW DEBUG] Clicking raw button for 186497760260503
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 186497760260503
+[SUCCESS] [RAW SAVED] 186497760260503_96851477-5625-4b5e-83f1-ce9481cb0bec.txt
+[RAW] Returned to main window
+[INSERTED] 186497758260503 | 2026-05-02 | 6.42
+[RAW] Opened menu for 186497758260503
+[RAW DEBUG] Clicking raw button for 186497758260503
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 186497758260503
+[SUCCESS] [RAW SAVED] 186497758260503_c214bceb-1c40-4af8-8d01-a9acb2afc248.txt
+[RAW] Returned to main window
+[INSERTED] 186497759260503 | 2026-05-02 | 518.76
+[RAW] Opened menu for 186497759260503
+[RAW DEBUG] Clicking raw button for 186497759260503
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 186497759260503
+[SUCCESS] [RAW SAVED] 186497759260503_867dfba9-d387-41d7-a8db-e6cebc9f5d02.txt
+[RAW] Returned to main window
+[INSERTED] 601601214616 | 2026-05-01 | 130.07
+[RAW] Opened menu for 601601214616
+[RAW DEBUG] Clicking raw button for 601601214616
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 601601214616
+[SUCCESS] [RAW SAVED] 601601214616_1f96aef6-d7ba-4574-81af-af685bdd1f6c.txt
+[RAW] Returned to main window
+[INSERTED] 349336883 | 2026-05-01 | 0.0
+[RAW] Opened menu for 349336883
+[RAW DEBUG] Clicking raw button for 349336883
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349336883
+[SUCCESS] [RAW SAVED] 349336883_49e03bb7-70e9-4cf5-b777-47da90373924.txt
+[RAW] Returned to main window
+[INSERTED] 818962422 | 2026-05-01 | 110.79
+[RAW] Opened menu for 818962422
+[RAW DEBUG] Clicking raw button for 818962422
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818962422
+[SUCCESS] [RAW SAVED] 818962422_8e7ea887-ed90-46c4-905d-f1b8a61c35d6.txt
+[RAW] Returned to main window
+[INSERTED] UH8820005206737ZPB1029844 | 2026-05-01 | 0.0
+[RAW] Opened menu for UH8820005206737ZPB1029844
+[RAW DEBUG] Clicking raw button for UH8820005206737ZPB1029844
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for UH8820005206737ZPB1029844
+[SUCCESS] [RAW SAVED] UH8820005206737ZPB1029844_09205286-c189-4f5d-80ec-a86679d8bd87.txt
+[RAW] Returned to main window
+NEW RECORDS = 49
+SKIPPED RECORDS = 0
+TOTAL MASTER ROWS = 93
+
+Checking NEXT button...
+Current range: 
+NEXT clicked
+New range: 101 – 150 of 10067
+
+========== PAGE 3 ==========
+Starting table scrape: payment_table
+[DOM] Waiting for visible: //div[contains(.,'Payment Method') and contains(.,'Payment Date')]
+[SUCCESS] Table loaded
+Checking page size...
+Current page size: 50
+[SUCCESS] Page size already set to 50
+Waiting for total records text...
+Total text found: 101 – 150 of 10067
+[SUCCESS] Total filtered records: 10067
+TOTAL FILTERED RECORDS = 10067
+AG ROW COUNT = 0
+Rows detected: 52
+[SUCCESS] Total rows scraped: 50
+Page 3 rows = 50
+[INSERTED] CPZ7323130409736113633555 | 2026-05-01 | 0.0
+[RAW] Opened menu for CPZ7323130409736113633555
+[RAW DEBUG] Clicking raw button for CPZ7323130409736113633555
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for CPZ7323130409736113633555
+[SUCCESS] [RAW SAVED] CPZ7323130409736113633555_2c7794e1-b7a8-4ac5-afab-8dd67bd6850d.txt
+[RAW] Returned to main window
+[INSERTED] V2588826 | 2026-05-01 | 4558.02
+[RAW] Opened menu for V2588826
+[RAW DEBUG] Clicking raw button for V2588826
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V2588826
+[SUCCESS] [RAW SAVED] V2588826_6999e189-8f0d-4aa5-888d-03f63a514df8.txt
+[RAW] Returned to main window
+[INSERTED] 11432461923 | 2026-04-30 | 119.8
+[RAW] Opened menu for 11432461923
+[RAW DEBUG] Clicking raw button for 11432461923
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11432461923
+[SUCCESS] [RAW SAVED] 11432461923_335c2c13-ab8f-446d-a9d5-4f5ac5e524c8.txt
+[RAW] Returned to main window
+[INSERTED] 260429070001170 | 2026-04-30 | 87.28
+[RAW] Opened menu for 260429070001170
+[RAW DEBUG] Clicking raw button for 260429070001170
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260429070001170
+[SUCCESS] [RAW SAVED] 260429070001170_98b5fb70-d9f6-4864-875f-7c4618f8d6cf.txt
+[RAW] Returned to main window
+[RAW SKIPPED - PENDING ERA] 1362879835
+[INSERTED] 818953110 | 2026-04-30 | 4058.82
+[RAW] Opened menu for 818953110
+[RAW DEBUG] Clicking raw button for 818953110
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818953110
+[SUCCESS] [RAW SAVED] 818953110_eaa1079e-bd01-4a5f-a378-b0b95d0a759c.txt
+[RAW] Returned to main window
+[INSERTED] C0085013930 | 2026-04-30 | 0.0
+[RAW] Opened menu for C0085013930
+[RAW DEBUG] Clicking raw button for C0085013930
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for C0085013930
+[SUCCESS] [RAW SAVED] C0085013930_40a5667d-8d64-4b25-8e9a-63d03ead8dc4.txt
+[RAW] Returned to main window
+[INSERTED] 873909959 | 2026-04-30 | 48.26
+[RAW] Opened menu for 873909959
+[RAW DEBUG] Clicking raw button for 873909959
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 873909959
+[SUCCESS] [RAW SAVED] 873909959_ecce20bf-d591-42ef-a3e8-3d79327b9508.txt
+[RAW] Returned to main window
+[INSERTED] 873909957 | 2026-04-30 | 133.0
+[RAW] Opened menu for 873909957
+[RAW DEBUG] Clicking raw button for 873909957
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 873909957
+[SUCCESS] [RAW SAVED] 873909957_d9535d90-22f1-44a8-bf2f-b611e3f550fc.txt
+[RAW] Returned to main window
+[INSERTED] 873909958 | 2026-04-30 | 97.15
+[RAW] Opened menu for 873909958
+[RAW DEBUG] Clicking raw button for 873909958
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 873909958
+[SUCCESS] [RAW SAVED] 873909958_a7c81cec-d26e-4640-9939-d6fdd4c078ac.txt
+[RAW] Returned to main window
+[INSERTED] 11431696810 | 2026-04-29 | 369.38
+[RAW] Opened menu for 11431696810
+[RAW DEBUG] Clicking raw button for 11431696810
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11431696810
+[SUCCESS] [RAW SAVED] 11431696810_816e9578-2363-42cd-b847-7d101eb4c10e.txt
+[RAW] Returned to main window
+[INSERTED] 2604291217 | 2026-04-29 | 0.0
+[RAW] Opened menu for 2604291217
+[RAW DEBUG] Clicking raw button for 2604291217
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2604291217
+[SUCCESS] [RAW SAVED] 2604291217_09209a15-daef-4a85-b076-6a37d40bc2f3.txt
+[RAW] Returned to main window
+[INSERTED] 213096052 | 2026-04-29 | 443.15
+[RAW] Opened menu for 213096052
+[RAW DEBUG] Clicking raw button for 213096052
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 213096052
+[SUCCESS] [RAW SAVED] 213096052_dc902f32-3767-402a-a41b-f9449b01d123.txt
+[RAW] Returned to main window
+[INSERTED] 423663636 | 2026-04-29 | 33.42
+[RAW] Opened menu for 423663636
+[RAW DEBUG] Clicking raw button for 423663636
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 423663636
+[SUCCESS] [RAW SAVED] 423663636_a2f6084c-3aed-4376-a6e0-493fc3e2c431.txt
+[RAW] Returned to main window
+[INSERTED] 130406186 | 2026-04-29 | 70.14
+[RAW] Opened menu for 130406186
+[RAW DEBUG] Clicking raw button for 130406186
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 130406186
+[SUCCESS] [RAW SAVED] 130406186_5754631e-a26b-44e5-ab90-b0ac123f9fc8.txt
+[RAW] Returned to main window
+[INSERTED] 874248152 | 2026-04-29 | 25.08
+[RAW] Opened menu for 874248152
+[RAW DEBUG] Clicking raw button for 874248152
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 874248152
+[SUCCESS] [RAW SAVED] 874248152_3146ffc3-ffdf-4e3b-8d9c-0ffbcd58ac77.txt
+[RAW] Returned to main window
+[INSERTED] 874488242 | 2026-04-29 | 123.85
+[RAW] Opened menu for 874488242
+[RAW DEBUG] Clicking raw button for 874488242
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 874488242
+[SUCCESS] [RAW SAVED] 874488242_bee7ebd2-f85e-4570-b090-2c1d8680fa5c.txt
+[RAW] Returned to main window
+[INSERTED] 818946529 | 2026-04-29 | 8731.77
+[RAW] Opened menu for 818946529
+[RAW DEBUG] Clicking raw button for 818946529
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818946529
+[SUCCESS] [RAW SAVED] 818946529_53376281-3a2f-4534-8dfe-0ca1daac0b7b.txt
+[RAW] Returned to main window
+[INSERTED] 822323401 | 2026-04-29 | 621.07
+[RAW] Opened menu for 822323401
+[RAW DEBUG] Clicking raw button for 822323401
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 822323401
+[SUCCESS] [RAW SAVED] 822323401_34f8167c-6516-444a-a60c-e0492030a073.txt
+[RAW] Returned to main window
+[INSERTED] 2522841898 | 2026-04-29 | 134.92
+[RAW] Opened menu for 2522841898
+[RAW DEBUG] Clicking raw button for 2522841898
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2522841898
+[SUCCESS] [RAW SAVED] 2522841898_239d8bdb-a588-492b-8dc3-d3fbc1c15af1.txt
+[RAW] Returned to main window
+[INSERTED] 2522813173 | 2026-04-28 | 287.03
+[RAW] Opened menu for 2522813173
+[RAW DEBUG] Clicking raw button for 2522813173
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2522813173
+[SUCCESS] [RAW SAVED] 2522813173_bdfe028b-c749-4113-99d3-3d62176fe8da.txt
+[RAW] Returned to main window
+[INSERTED] 826112000170899 | 2026-04-27 | 97.81
+[RAW] Opened menu for 826112000170899
+[RAW DEBUG] Clicking raw button for 826112000170899
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826112000170899
+[SUCCESS] [RAW SAVED] 826112000170899_45c28a99-0b35-4a44-9b86-5e2872d26f99.txt
+[RAW] Returned to main window
+[INSERTED] 2522774463 | 2026-04-27 | 132.26
+[RAW] Opened menu for 2522774463
+[RAW DEBUG] Clicking raw button for 2522774463
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2522774463
+[SUCCESS] [RAW SAVED] 2522774463_cde7badc-407c-4cc9-8c12-7e9e6615506e.txt
+[RAW] Returned to main window
+[INSERTED] UH88200050807641245289277 | 2026-04-27 | 23.26
+[RAW] Opened menu for UH88200050807641245289277
+[RAW DEBUG] Clicking raw button for UH88200050807641245289277
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for UH88200050807641245289277
+[SUCCESS] [RAW SAVED] UH88200050807641245289277_20cb1a33-99b9-405c-848f-411f6d1496d1.txt
+[RAW] Returned to main window
+[INSERTED] V2258609 | 2026-04-27 | 48.66
+[RAW] Opened menu for V2258609
+[RAW DEBUG] Clicking raw button for V2258609
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V2258609
+[SUCCESS] [RAW SAVED] V2258609_9e5ce400-479a-4592-aba6-0a0890225abd.txt
+[RAW] Returned to main window
+[INSERTED] NO-PAY-202604250008521 | 2026-04-25 | 0.0
+[RAW] Opened menu for NO-PAY-202604250008521
+[RAW DEBUG] Clicking raw button for NO-PAY-202604250008521
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for NO-PAY-202604250008521
+[SUCCESS] [RAW SAVED] NO-PAY-202604250008521_a5c234ae-dfab-4e9b-be2e-d17549ba7c28.txt
+[RAW] Returned to main window
+[INSERTED] 185804466260426 | 2026-04-25 | 31.32
+[RAW] Opened menu for 185804466260426
+[RAW DEBUG] Clicking raw button for 185804466260426
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 185804466260426
+[SUCCESS] [RAW SAVED] 185804466260426_b9210bb7-60cb-4884-8361-c2ad50f845ed.txt
+[RAW] Returned to main window
+[INSERTED] 882611001029433 | 2026-04-24 | 529.3
+[RAW] Opened menu for 882611001029433
+[RAW DEBUG] Clicking raw button for 882611001029433
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882611001029433
+[SUCCESS] [RAW SAVED] 882611001029433_b907a226-078e-4069-a349-0b1de220fc89.txt
+[RAW] Returned to main window
+[INSERTED] NO-PAY-202604240010865 | 2026-04-24 | 0.0
+[RAW] Opened menu for NO-PAY-202604240010865
+[RAW DEBUG] Clicking raw button for NO-PAY-202604240010865
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for NO-PAY-202604240010865
+[SUCCESS] [RAW SAVED] NO-PAY-202604240010865_a75c55c3-b5b8-4821-a08a-12e0f7d88492.txt
+[RAW] Returned to main window
+[INSERTED] 185703029260425 | 2026-04-24 | 11.32
+[RAW] Opened menu for 185703029260425
+[RAW DEBUG] Clicking raw button for 185703029260425
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 185703029260425
+[SUCCESS] [RAW SAVED] 185703029260425_706a1c85-588b-4033-8605-2959417e2b3c.txt
+[RAW] Returned to main window
+[INSERTED] 320970737 | 2026-04-24 | 0.0
+[RAW] Opened menu for 320970737
+[RAW DEBUG] Clicking raw button for 320970737
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 320970737
+[SUCCESS] [RAW SAVED] 320970737_afd69b96-7aad-43ef-9dc7-afee312ccd43.txt
+[RAW] Returned to main window
+[INSERTED] 11428997573 | 2026-04-23 | 1260.77
+[RAW] Opened menu for 11428997573
+[RAW DEBUG] Clicking raw button for 11428997573
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11428997573
+[SUCCESS] [RAW SAVED] 11428997573_7e1ccc73-83fc-4ed3-99d6-c3a94a472205.txt
+[RAW] Returned to main window
+[INSERTED] 826110000124953 | 2026-04-23 | 89.76
+[RAW] Opened menu for 826110000124953
+[RAW DEBUG] Clicking raw button for 826110000124953
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826110000124953
+[SUCCESS] [RAW SAVED] 826110000124953_6f0f70dd-ea16-4fe5-a7db-2ec5f21e81c8.txt
+[RAW] Returned to main window
+[INSERTED] 882610801069665 | 2026-04-23 | 570.75
+[RAW] Opened menu for 882610801069665
+[RAW DEBUG] Clicking raw button for 882610801069665
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882610801069665
+[SUCCESS] [RAW SAVED] 882610801069665_3144a7e0-765d-403b-a366-5b9f023f7158.txt
+[RAW] Returned to main window
+[INSERTED] 818912674 | 2026-04-23 | 493.57
+[RAW] Opened menu for 818912674
+[RAW DEBUG] Clicking raw button for 818912674
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818912674
+[SUCCESS] [RAW SAVED] 818912674_3d8f65b2-9f2d-43b0-b5bb-495c3c0f341a.txt
+[RAW] Returned to main window
+[INSERTED] 349292874 | 2026-04-23 | 0.0
+[RAW] Opened menu for 349292874
+[RAW DEBUG] Clicking raw button for 349292874
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349292874
+[SUCCESS] [RAW SAVED] 349292874_c7799e04-5ee4-4aea-9b81-645113161b05.txt
+[RAW] Returned to main window
+[INSERTED] 870906990 | 2026-04-23 | 31.32
+[RAW] Opened menu for 870906990
+[RAW DEBUG] Clicking raw button for 870906990
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 870906990
+[SUCCESS] [RAW SAVED] 870906990_2f8dea85-1681-438a-b62a-03eab7f03442.txt
+[RAW] Returned to main window
+[INSERTED] 871089070 | 2026-04-23 | 92.53
+[RAW] Opened menu for 871089070
+[RAW DEBUG] Clicking raw button for 871089070
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 871089070
+[SUCCESS] [RAW SAVED] 871089070_b54177d6-c741-426a-ad93-5e2f5e50250f.txt
+[RAW] Returned to main window
+[INSERTED] 822280030 | 2026-04-23 | 42.51
+[RAW] Opened menu for 822280030
+[RAW DEBUG] Clicking raw button for 822280030
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 822280030
+[SUCCESS] [RAW SAVED] 822280030_4b28b4b5-44f5-43e5-82bb-16257d55ffa2.txt
+[RAW] Returned to main window
+[INSERTED] V2167598 | 2026-04-23 | 816.14
+[RAW] Opened menu for V2167598
+[RAW DEBUG] Clicking raw button for V2167598
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V2167598
+[SUCCESS] [RAW SAVED] V2167598_17c55028-09a3-47d0-a0f4-60c586f43bb6.txt
+[RAW] Returned to main window
+[INSERTED] W357245428 | 2026-04-23 | 0.0
+[RAW] Opened menu for W357245428
+[RAW DEBUG] Clicking raw button for W357245428
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W357245428
+[SUCCESS] [RAW SAVED] W357245428_b5bfed8e-87d4-4bbf-943d-84af844f411f.txt
+[RAW] Returned to main window
+[INSERTED] W357245427 | 2026-04-23 | 85.97
+[RAW] Opened menu for W357245427
+[RAW DEBUG] Clicking raw button for W357245427
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W357245427
+[SUCCESS] [RAW SAVED] W357245427_c04f38fa-c53c-4599-970d-19fc16173993.txt
+[RAW] Returned to main window
+[INSERTED] 926112000170896 | 2026-04-22 | 0.0
+[RAW] Opened menu for 926112000170896
+[RAW DEBUG] Clicking raw button for 926112000170896
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 926112000170896
+[SUCCESS] [RAW SAVED] 926112000170896_28b3c1bd-6a02-46ff-b0dc-630a65c30da0.txt
+[RAW] Returned to main window
+[INSERTED] 826108000002795 | 2026-04-22 | 338.92
+[RAW] Opened menu for 826108000002795
+[RAW DEBUG] Clicking raw button for 826108000002795
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826108000002795
+[SUCCESS] [RAW SAVED] 826108000002795_86cfd3ab-b836-4a2f-8207-a4377028ab96.txt
+[RAW] Returned to main window
+[INSERTED] 882610701009759 | 2026-04-22 | 2216.03
+[RAW] Opened menu for 882610701009759
+[RAW DEBUG] Clicking raw button for 882610701009759
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882610701009759
+[SUCCESS] [RAW SAVED] 882610701009759_7f20315e-0c81-4a83-a71d-e9fc85b7f01b.txt
+[RAW] Returned to main window
+[INSERTED] 213079903 | 2026-04-22 | 3393.51
+[RAW] Opened menu for 213079903
+[RAW DEBUG] Clicking raw button for 213079903
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 213079903
+[SUCCESS] [RAW SAVED] 213079903_da8484e1-857f-44d2-8010-aeaa7f7d070b.txt
+[RAW] Returned to main window
+[INSERTED] 190432822 | 2026-04-22 | 859.0
+[RAW] Opened menu for 190432822
+[RAW DEBUG] Clicking raw button for 190432822
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 190432822
+[SUCCESS] [RAW SAVED] 190432822_b8a54f8c-6d50-449b-b18c-88675eefec82.txt
+[RAW] Returned to main window
+[INSERTED] 130400026 | 2026-04-22 | 468.2
+[RAW] Opened menu for 130400026
+[RAW DEBUG] Clicking raw button for 130400026
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 130400026
+[SUCCESS] [RAW SAVED] 130400026_10adfc01-6331-4c60-b190-383e4f1a6220.txt
+[RAW] Returned to main window
+[INSERTED] 423657220 | 2026-04-22 | 138.23
+[RAW] Opened menu for 423657220
+[RAW DEBUG] Clicking raw button for 423657220
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 423657220
+[SUCCESS] [RAW SAVED] 423657220_31bea150-0eef-496c-ae55-7094b596945e.txt
+[RAW] Returned to main window
+[INSERTED] 620194482 | 2026-04-22 | 96.05
+[RAW] Opened menu for 620194482
+[RAW DEBUG] Clicking raw button for 620194482
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 620194482
+[SUCCESS] [RAW SAVED] 620194482_8d53f7e7-7238-4bae-8d7c-b09b91d65421.txt
+[RAW] Returned to main window
+NEW RECORDS = 49
+SKIPPED RECORDS = 0
+TOTAL MASTER ROWS = 142
+
+Checking NEXT button...
+Current range: 
+NEXT clicked
+New range: 151 – 200 of 10067
+
+========== PAGE 4 ==========
+Starting table scrape: payment_table
+[DOM] Waiting for visible: //div[contains(.,'Payment Method') and contains(.,'Payment Date')]
+[SUCCESS] Table loaded
+Checking page size...
+Current page size: 50
+[SUCCESS] Page size already set to 50
+Waiting for total records text...
+Total text found: 151 – 200 of 10067
+[SUCCESS] Total filtered records: 10067
+TOTAL FILTERED RECORDS = 10067
+AG ROW COUNT = 0
+Rows detected: 52
+[SUCCESS] Total rows scraped: 50
+Page 4 rows = 50
+[INSERTED] 851094602 | 2026-04-22 | 85.97
+[RAW] Opened menu for 851094602
+[RAW DEBUG] Clicking raw button for 851094602
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 851094602
+[SUCCESS] [RAW SAVED] 851094602_4d70bfce-8fde-4d5a-9c24-9da8e13eb0cf.txt
+[RAW] Returned to main window
+[INSERTED] 705882610 | 2026-04-22 | 323.76
+[RAW] Opened menu for 705882610
+[RAW DEBUG] Clicking raw button for 705882610
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 705882610
+[SUCCESS] [RAW SAVED] 705882610_0c05af19-5fae-4da0-b87d-eefadaca7ee7.txt
+[RAW] Returned to main window
+[INSERTED] 870227217 | 2026-04-22 | 99.79
+[RAW] Opened menu for 870227217
+[RAW DEBUG] Clicking raw button for 870227217
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 870227217
+[SUCCESS] [RAW SAVED] 870227217_3838bc5e-3501-435d-b476-6a5a64159164.txt
+[RAW] Returned to main window
+[INSERTED] 818903355 | 2026-04-22 | 2491.64
+[RAW] Opened menu for 818903355
+[RAW DEBUG] Clicking raw button for 818903355
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818903355
+[SUCCESS] [RAW SAVED] 818903355_85ed0c5f-7254-4829-bbd4-96ff580e7c3f.txt
+[RAW] Returned to main window
+[INSERTED] 349285353 | 2026-04-22 | 0.0
+[RAW] Opened menu for 349285353
+[RAW DEBUG] Clicking raw button for 349285353
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349285353
+[SUCCESS] [RAW SAVED] 349285353_e196a353-10d3-49d4-9eb8-5a7efed87a4c.txt
+[RAW] Returned to main window
+[INSERTED] 320961518 | 2026-04-22 | 0.0
+[RAW] Opened menu for 320961518
+[RAW DEBUG] Clicking raw button for 320961518
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 320961518
+[SUCCESS] [RAW SAVED] 320961518_85028fe5-9aa2-402e-8d3a-2191a987245f.txt
+[RAW] Returned to main window
+[INSERTED] 2522700379 | 2026-04-22 | 381.1
+[RAW] Opened menu for 2522700379
+[RAW DEBUG] Clicking raw button for 2522700379
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2522700379
+[SUCCESS] [RAW SAVED] 2522700379_d61329e0-02b3-4a64-9df6-22c7cf6bbf79.txt
+[RAW] Returned to main window
+[INSERTED] V2092610 | 2026-04-22 | 2617.91
+[RAW] Opened menu for V2092610
+[RAW DEBUG] Clicking raw button for V2092610
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V2092610
+[SUCCESS] [RAW SAVED] V2092610_c80777ec-0a24-4782-a149-0d91276a71fe.txt
+[RAW] Returned to main window
+[INSERTED] 52779952 | 2026-04-22 | 108.27
+[RAW] Opened menu for 52779952
+[RAW DEBUG] Clicking raw button for 52779952
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 52779952
+[SUCCESS] [RAW SAVED] 52779952_3997f692-df63-42a5-990d-9e37c201dfb1.txt
+[RAW] Returned to main window
+[INSERTED] 11427568771 | 2026-04-21 | 645.48
+[RAW] Opened menu for 11427568771
+[RAW DEBUG] Clicking raw button for 11427568771
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11427568771
+[SUCCESS] [RAW SAVED] 11427568771_723df9eb-2d0e-4055-950e-c088d22715bf.txt
+[RAW] Returned to main window
+[INSERTED] UH14P00090468760020639388 | 2026-04-21 | 70.0
+[RAW] Opened menu for UH14P00090468760020639388
+[RAW DEBUG] Clicking raw button for UH14P00090468760020639388
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for UH14P00090468760020639388
+[SUCCESS] [RAW SAVED] UH14P00090468760020639388_777ecf73-3966-489f-b331-3d6c6bab2685.txt
+[RAW] Returned to main window
+[INSERTED] 20260416110030800EZPS0 | 2026-04-21 | 0.0
+[RAW] Opened menu for 20260416110030800EZPS0
+[RAW DEBUG] Clicking raw button for 20260416110030800EZPS0
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 20260416110030800EZPS0
+[SUCCESS] [RAW SAVED] 20260416110030800EZPS0_291ba8a0-93d6-4695-907d-7c52a338e3bd.txt
+[RAW] Returned to main window
+[INSERTED] 818896393 | 2026-04-21 | 770.43
+[RAW] Opened menu for 818896393
+[RAW DEBUG] Clicking raw button for 818896393
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818896393
+[SUCCESS] [RAW SAVED] 818896393_019ee2aa-1b24-4192-b656-d001e6a8cd1c.txt
+[RAW] Returned to main window
+[RAW SKIPPED - PENDING ERA] X318525523
+[RAW SKIPPED - PENDING ERA] 0000011978
+[INSERTED] 826105000351959 | 2026-04-20 | 35.71
+[RAW] Opened menu for 826105000351959
+[RAW DEBUG] Clicking raw button for 826105000351959
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826105000351959
+[SUCCESS] [RAW SAVED] 826105000351959_481cd405-e7e6-4f0d-97ca-6bb02a6c63c9.txt
+[RAW] Returned to main window
+[INSERTED] 260416090062190 | 2026-04-20 | 39.18
+[RAW] Opened menu for 260416090062190
+[RAW DEBUG] Clicking raw button for 260416090062190
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260416090062190
+[SUCCESS] [RAW SAVED] 260416090062190_1183d4d5-551b-4b05-aee2-865c5c2226b7.txt
+[RAW] Returned to main window
+[INSERTED] 185273960260421 | 2026-04-20 | 21.99
+[RAW] Opened menu for 185273960260421
+[RAW DEBUG] Clicking raw button for 185273960260421
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 185273960260421
+[SUCCESS] [RAW SAVED] 185273960260421_b77aaabe-2a9d-42e4-93cb-62191a9ef0b2.txt
+[RAW] Returned to main window
+[INSERTED] 818886928 | 2026-04-20 | 44.42
+[RAW] Opened menu for 818886928
+[RAW DEBUG] Clicking raw button for 818886928
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818886928
+[SUCCESS] [RAW SAVED] 818886928_188a68a6-aa19-413e-9cee-fa2a5c6ba915.txt
+[RAW] Returned to main window
+[INSERTED] 867185321 | 2026-04-20 | 81.52
+[RAW] Opened menu for 867185321
+[RAW DEBUG] Clicking raw button for 867185321
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 867185321
+[SUCCESS] [RAW SAVED] 867185321_70364863-b76f-451a-9ef5-ae801393ec2e.txt
+[RAW] Returned to main window
+[INSERTED] 11426239762 | 2026-04-17 | 39.74
+[RAW] Opened menu for 11426239762
+[RAW DEBUG] Clicking raw button for 11426239762
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11426239762
+[SUCCESS] [RAW SAVED] 11426239762_f149ecfc-f9ca-43c9-a084-4f59bfc0012a.txt
+[RAW] Returned to main window
+[INSERTED] 349265769 | 2026-04-17 | 0.0
+[RAW] Opened menu for 349265769
+[RAW DEBUG] Clicking raw button for 349265769
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349265769
+[SUCCESS] [RAW SAVED] 349265769_dbb81ca4-b907-4a63-801e-0c2d6c5a9c05.txt
+[RAW] Returned to main window
+[INSERTED] V1938530 | 2026-04-17 | 221.5
+[RAW] Opened menu for V1938530
+[RAW DEBUG] Clicking raw button for V1938530
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V1938530
+[SUCCESS] [RAW SAVED] V1938530_90b4ed27-dd3c-4720-b4e1-636e27aebc1d.txt
+[RAW] Returned to main window
+[INSERTED] 11425659104 | 2026-04-16 | 355.24
+[RAW] Opened menu for 11425659104
+[RAW DEBUG] Clicking raw button for 11425659104
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11425659104
+[SUCCESS] [RAW SAVED] 11425659104_77625232-9fd0-47e0-90cc-283af91d560f.txt
+[RAW] Returned to main window
+[INSERTED] 926106000074834 | 2026-04-16 | 0.0
+[RAW] Opened menu for 926106000074834
+[RAW DEBUG] Clicking raw button for 926106000074834
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 926106000074834
+[SUCCESS] [RAW SAVED] 926106000074834_b102c7df-cf63-4c36-bbda-69352b4c8221.txt
+[RAW] Returned to main window
+[INSERTED] 882610101053064 | 2026-04-16 | 131.89
+[RAW] Opened menu for 882610101053064
+[RAW DEBUG] Clicking raw button for 882610101053064
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882610101053064
+[SUCCESS] [RAW SAVED] 882610101053064_b43bef75-f8ea-4782-b8d3-01e6db96b8ce.txt
+[RAW] Returned to main window
+[INSERTED] 42949085 | 2026-04-16 | 39.41
+[RAW] Opened menu for 42949085
+[RAW DEBUG] Clicking raw button for 42949085
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 42949085
+[SUCCESS] [RAW SAVED] 42949085_eb11a6f3-8495-46f2-b78e-fc563fbdd51f.txt
+[RAW] Returned to main window
+[INSERTED] 818878737 | 2026-04-16 | 9798.42
+[RAW] Opened menu for 818878737
+[RAW DEBUG] Clicking raw button for 818878737
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818878737
+[SUCCESS] [RAW SAVED] 818878737_906850e4-751f-4e27-8f1d-b9a63f0b984b.txt
+[RAW] Returned to main window
+[INSERTED] 822240763 | 2026-04-16 | 758.52
+[RAW] Opened menu for 822240763
+[RAW DEBUG] Clicking raw button for 822240763
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 822240763
+[SUCCESS] [RAW SAVED] 822240763_bf0b373a-3530-48e7-b8ff-f32bad5a3cc6.txt
+[RAW] Returned to main window
+[INSERTED] 864835895 | 2026-04-16 | 253.02
+[RAW] Opened menu for 864835895
+[RAW DEBUG] Clicking raw button for 864835895
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 864835895
+[SUCCESS] [RAW SAVED] 864835895_dbc21630-6c4b-4104-933f-168a41fcc96b.txt
+[RAW] Returned to main window
+[INSERTED] V1849601 | 2026-04-16 | 702.68
+[RAW] Opened menu for V1849601
+[RAW DEBUG] Clicking raw button for V1849601
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V1849601
+[SUCCESS] [RAW SAVED] V1849601_f7d4af5f-78ae-4965-b2ad-7639aa236d58.txt
+[RAW] Returned to main window
+[INSERTED] W356610720 | 2026-04-16 | 0.0
+[RAW] Opened menu for W356610720
+[RAW DEBUG] Clicking raw button for W356610720
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W356610720
+[SUCCESS] [RAW SAVED] W356610720_307bad98-bb51-4dbb-ad77-8a28c7053bba.txt
+[RAW] Returned to main window
+[INSERTED] W356610719 | 2026-04-16 | 78.67
+[RAW] Opened menu for W356610719
+[RAW DEBUG] Clicking raw button for W356610719
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W356610719
+[SUCCESS] [RAW SAVED] W356610719_3be87793-2f43-4fcd-909b-c4c108b743e4.txt
+[RAW] Returned to main window
+[INSERTED] 11424949949 | 2026-04-15 | 354.12
+[RAW] Opened menu for 11424949949
+[RAW DEBUG] Clicking raw button for 11424949949
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11424949949
+[SUCCESS] [RAW SAVED] 11424949949_cd7f4d48-5ee8-466c-98c3-9b28348e926b.txt
+[RAW] Returned to main window
+[INSERTED] 926105000351960 | 2026-04-15 | 0.0
+[RAW] Opened menu for 926105000351960
+[RAW DEBUG] Clicking raw button for 926105000351960
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 926105000351960
+[SUCCESS] [RAW SAVED] 926105000351960_cf935ae4-b740-4219-bdb5-218c72e05198.txt
+[RAW] Returned to main window
+[INSERTED] 882609901043693 | 2026-04-15 | 74.14
+[RAW] Opened menu for 882609901043693
+[RAW DEBUG] Clicking raw button for 882609901043693
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882609901043693
+[SUCCESS] [RAW SAVED] 882609901043693_293aeebf-7136-41c6-a3c0-836b964ec8c1.txt
+[RAW] Returned to main window
+[INSERTED] 423650752 | 2026-04-15 | 109.04
+[RAW] Opened menu for 423650752
+[RAW DEBUG] Clicking raw button for 423650752
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 423650752
+[SUCCESS] [RAW SAVED] 423650752_6a118f70-926b-4a14-a6ae-7bd719c7e887.txt
+[RAW] Returned to main window
+[INSERTED] 130394009 | 2026-04-15 | 41.97
+[RAW] Opened menu for 130394009
+[RAW DEBUG] Clicking raw button for 130394009
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 130394009
+[SUCCESS] [RAW SAVED] 130394009_04d3bbe9-f024-4b9b-bb0d-a763ae8fd15d.txt
+[RAW] Returned to main window
+[INSERTED] 213063960 | 2026-04-15 | 1514.3
+[RAW] Opened menu for 213063960
+[RAW DEBUG] Clicking raw button for 213063960
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 213063960
+[SUCCESS] [RAW SAVED] 213063960_e39edd56-7fbf-40a3-9338-1575d1e1cb79.txt
+[RAW] Returned to main window
+[INSERTED] 190426316 | 2026-04-15 | 328.61
+[RAW] Opened menu for 190426316
+[RAW DEBUG] Clicking raw button for 190426316
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 190426316
+[SUCCESS] [RAW SAVED] 190426316_eb316dd4-3a7f-45ab-ab6c-f26a74f46104.txt
+[RAW] Returned to main window
+[INSERTED] 620191554 | 2026-04-15 | 60.0
+[RAW] Opened menu for 620191554
+[RAW DEBUG] Clicking raw button for 620191554
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 620191554
+[SUCCESS] [RAW SAVED] 620191554_b87216e8-a850-406e-9158-f2f68048069c.txt
+[RAW] Returned to main window
+[INSERTED] 705874361 | 2026-04-15 | 386.01
+[RAW] Opened menu for 705874361
+[RAW DEBUG] Clicking raw button for 705874361
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 705874361
+[SUCCESS] [RAW SAVED] 705874361_5988c2d1-8fa6-4efc-ae64-6c3554b7111b.txt
+[RAW] Returned to main window
+[INSERTED] 851092539 | 2026-04-15 | 269.18
+[RAW] Opened menu for 851092539
+[RAW DEBUG] Clicking raw button for 851092539
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 851092539
+[SUCCESS] [RAW SAVED] 851092539_e94dd7f1-ddcb-40e9-a066-5c6df53b4c2b.txt
+[RAW] Returned to main window
+[INSERTED] 602001375132 | 2026-04-15 | 84.5
+[RAW] Opened menu for 602001375132
+[RAW DEBUG] Clicking raw button for 602001375132
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 602001375132
+[SUCCESS] [RAW SAVED] 602001375132_3eb75241-3a7b-4a56-b552-c484d2b83904.txt
+[RAW] Returned to main window
+[INSERTED] 865418284 | 2026-04-15 | 132.02
+[RAW] Opened menu for 865418284
+[RAW DEBUG] Clicking raw button for 865418284
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 865418284
+[SUCCESS] [RAW SAVED] 865418284_4eaa9507-5661-4d92-b1e1-4110aea4b40e.txt
+[RAW] Returned to main window
+[INSERTED] 349257790 | 2026-04-15 | 0.0
+[RAW] Opened menu for 349257790
+[RAW DEBUG] Clicking raw button for 349257790
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349257790
+[SUCCESS] [RAW SAVED] 349257790_3ff5c013-ecd3-4ce2-8743-e7e42f1e3e5b.txt
+[RAW] Returned to main window
+[INSERTED] 2522496397 | 2026-04-15 | 32.11
+[RAW] Opened menu for 2522496397
+[RAW DEBUG] Clicking raw button for 2522496397
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2522496397
+[SUCCESS] [RAW SAVED] 2522496397_5bd61eb1-4b33-45cb-923d-f6534cdf1650.txt
+[RAW] Returned to main window
+[INSERTED] 2522524139 | 2026-04-15 | 73.21
+[RAW] Opened menu for 2522524139
+[RAW DEBUG] Clicking raw button for 2522524139
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2522524139
+[SUCCESS] [RAW SAVED] 2522524139_6c95d41c-33cb-4603-9a97-4284bfdd0d43.txt
+[RAW] Returned to main window
+[INSERTED] W356483543 | 2026-04-15 | 73.02
+[RAW] Opened menu for W356483543
+[RAW DEBUG] Clicking raw button for W356483543
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W356483543
+[SUCCESS] [RAW SAVED] W356483543_c7e0468a-0365-44e4-bd92-144a2152b91c.txt
+[RAW] Returned to main window
+[INSERTED] 184685568260415 | 2026-04-14 | 133.4
+[RAW] Opened menu for 184685568260415
+[RAW DEBUG] Clicking raw button for 184685568260415
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 184685568260415
+[SUCCESS] [RAW SAVED] 184685568260415_9c6e37ca-1baf-4bb1-810b-66e004e7b962.txt
+[RAW] Returned to main window
+NEW RECORDS = 48
+SKIPPED RECORDS = 0
+TOTAL MASTER ROWS = 190
+
+Checking NEXT button...
+Current range: 
+NEXT clicked
+New range: 201 – 250 of 10067
+
+========== PAGE 5 ==========
+Starting table scrape: payment_table
+[DOM] Waiting for visible: //div[contains(.,'Payment Method') and contains(.,'Payment Date')]
+[SUCCESS] Table loaded
+Checking page size...
+Current page size: 50
+[SUCCESS] Page size already set to 50
+Waiting for total records text...
+Total text found: 201 – 250 of 10067
+[SUCCESS] Total filtered records: 10067
+TOTAL FILTERED RECORDS = 10067
+AG ROW COUNT = 0
+Rows detected: 52
+[SUCCESS] Total rows scraped: 50
+Page 5 rows = 50
+[INSERTED] 822222558 | 2026-04-14 | 403.11
+[RAW] Opened menu for 822222558
+[RAW DEBUG] Clicking raw button for 822222558
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 822222558
+[SUCCESS] [RAW SAVED] 822222558_fd990d8a-3bac-4e81-b839-9a765749b3ba.txt
+[RAW] Returned to main window
+[INSERTED] 2522461009 | 2026-04-14 | 313.95
+[RAW] Opened menu for 2522461009
+[RAW DEBUG] Clicking raw button for 2522461009
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2522461009
+[SUCCESS] [RAW SAVED] 2522461009_578d62ff-e6be-4142-8ee1-4412d022b9dd.txt
+[RAW] Returned to main window
+[INSERTED] V1711448 | 2026-04-14 | 1641.85
+[RAW] Opened menu for V1711448
+[RAW DEBUG] Clicking raw button for V1711448
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V1711448
+[SUCCESS] [RAW SAVED] V1711448_e0974fb6-c01c-4e97-9fd1-898584a90ec1.txt
+[RAW] Returned to main window
+[INSERTED] 826098000027239 | 2026-04-13 | 68.8
+[RAW] Opened menu for 826098000027239
+[RAW DEBUG] Clicking raw button for 826098000027239
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826098000027239
+[SUCCESS] [RAW SAVED] 826098000027239_9ef9e2e6-f04c-43f0-8500-f939b90d311f.txt
+[RAW] Returned to main window
+[INSERTED] 826098000027248 | 2026-04-13 | 557.17
+[RAW] Opened menu for 826098000027248
+[RAW DEBUG] Clicking raw button for 826098000027248
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826098000027248
+[SUCCESS] [RAW SAVED] 826098000027248_b9d9b841-e7bc-4c9c-b3e1-b6ac53a2d96a.txt
+[RAW] Returned to main window
+[INSERTED] 865047056 | 2026-04-13 | 0.0
+[RAW] Opened menu for 865047056
+[RAW DEBUG] Clicking raw button for 865047056
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 865047056
+[SUCCESS] [RAW SAVED] 865047056_e81f9aee-a93b-49fe-83de-acaa5d277c0a.txt
+[RAW] Returned to main window
+[INSERTED] 184580714260414 | 2026-04-13 | 13.51
+[RAW] Opened menu for 184580714260414
+[RAW DEBUG] Clicking raw button for 184580714260414
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 184580714260414
+[SUCCESS] [RAW SAVED] 184580714260414_77ea00fd-3ce5-48d3-9604-bc3303f684c1.txt
+[RAW] Returned to main window
+[INSERTED] 818856223 | 2026-04-13 | 28.67
+[RAW] Opened menu for 818856223
+[RAW DEBUG] Clicking raw button for 818856223
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818856223
+[SUCCESS] [RAW SAVED] 818856223_0b529c05-d31f-4af2-98b7-f5edc529b1eb.txt
+[RAW] Returned to main window
+[INSERTED] CI20408127720286098403567 | 2026-04-13 | 0.0
+[RAW] Opened menu for CI20408127720286098403567
+[RAW DEBUG] Clicking raw button for CI20408127720286098403567
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for CI20408127720286098403567
+[SUCCESS] [RAW SAVED] CI20408127720286098403567_d5845681-14fa-4131-8802-d36b7db5ed88.txt
+[RAW] Returned to main window
+[INSERTED] CL85208127858286098417367 | 2026-04-13 | 0.0
+[RAW] Opened menu for CL85208127858286098417367
+[RAW DEBUG] Clicking raw button for CL85208127858286098417367
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for CL85208127858286098417367
+[SUCCESS] [RAW SAVED] CL85208127858286098417367_85bc16a2-fd0b-4d99-8e29-a458295e6e82.txt
+[RAW] Returned to main window
+[INSERTED] 52367081 | 2026-04-13 | 73.89
+[RAW] Opened menu for 52367081
+[RAW DEBUG] Clicking raw button for 52367081
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 52367081
+[SUCCESS] [RAW SAVED] 52367081_60261dc7-388f-44e0-a242-c16a9d6ca255.txt
+[RAW] Returned to main window
+[INSERTED] 184525536260413 | 2026-04-12 | 44.33
+[RAW] Opened menu for 184525536260413
+[RAW DEBUG] Clicking raw button for 184525536260413
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 184525536260413
+[SUCCESS] [RAW SAVED] 184525536260413_f3076aa2-2778-44c4-a732-a3a00bc592e5.txt
+[RAW] Returned to main window
+[INSERTED] 184525535260413 | 2026-04-12 | 6.42
+[RAW] Opened menu for 184525535260413
+[RAW DEBUG] Clicking raw button for 184525535260413
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 184525535260413
+[SUCCESS] [RAW SAVED] 184525535260413_34756fe3-50df-477a-ab4e-f00da1303d99.txt
+[RAW] Returned to main window
+[INSERTED] 11422868047 | 2026-04-10 | 459.08
+[RAW] Opened menu for 11422868047
+[RAW DEBUG] Clicking raw button for 11422868047
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11422868047
+[SUCCESS] [RAW SAVED] 11422868047_d5850e64-edf6-4edc-908b-e648693d48b9.txt
+[RAW] Returned to main window
+[INSERTED] G04062603652 | 2026-04-10 | 0.0
+[RAW] Opened menu for G04062603652
+[RAW DEBUG] Clicking raw button for G04062603652
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for G04062603652
+[SUCCESS] [RAW SAVED] G04062603652_955bbdf0-d13b-4f34-af0b-c8426f2aeb37.txt
+[RAW] Returned to main window
+[INSERTED] 818847795 | 2026-04-10 | 1204.39
+[RAW] Opened menu for 818847795
+[RAW DEBUG] Clicking raw button for 818847795
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818847795
+[SUCCESS] [RAW SAVED] 818847795_5fd11e46-561e-4294-99ca-fb71f7ca4b38.txt
+[RAW] Returned to main window
+[INSERTED] 2522397713 | 2026-04-10 | 58.85
+[RAW] Opened menu for 2522397713
+[RAW DEBUG] Clicking raw button for 2522397713
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2522397713
+[SUCCESS] [RAW SAVED] 2522397713_9a6a1672-14b8-46ec-99d7-9893e52d14aa.txt
+[RAW] Returned to main window
+[INSERTED] 861494401 | 2026-04-10 | 89.67
+[RAW] Opened menu for 861494401
+[RAW DEBUG] Clicking raw button for 861494401
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 861494401
+[SUCCESS] [RAW SAVED] 861494401_643661a6-5445-4bf3-814d-475c32e12377.txt
+[RAW] Returned to main window
+[INSERTED] V1617165 | 2026-04-10 | 259.38
+[RAW] Opened menu for V1617165
+[RAW DEBUG] Clicking raw button for V1617165
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V1617165
+[SUCCESS] [RAW SAVED] V1617165_f9bc16e6-e24e-47ae-8add-9d259b2f7aa5.txt
+[RAW] Returned to main window
+[INSERTED] 11422219681 | 2026-04-09 | 202.98
+[RAW] Opened menu for 11422219681
+[RAW DEBUG] Clicking raw button for 11422219681
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11422219681
+[SUCCESS] [RAW SAVED] 11422219681_27652aee-77c5-4a54-bca4-ec2038681f3c.txt
+[RAW] Returned to main window
+[INSERTED] 826096000245284 | 2026-04-09 | 68.33
+[RAW] Opened menu for 826096000245284
+[RAW DEBUG] Clicking raw button for 826096000245284
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 826096000245284
+[SUCCESS] [RAW SAVED] 826096000245284_b52b36dd-d51f-466a-8782-1a738ad94eb8.txt
+[RAW] Returned to main window
+[INSERTED] 882609401007743 | 2026-04-09 | 2479.14
+[RAW] Opened menu for 882609401007743
+[RAW DEBUG] Clicking raw button for 882609401007743
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 882609401007743
+[SUCCESS] [RAW SAVED] 882609401007743_9f8e4fa0-8f15-45fc-b856-3a39992b1082.txt
+[RAW] Returned to main window
+[INSERTED] 349237526 | 2026-04-09 | 0.0
+[RAW] Opened menu for 349237526
+[RAW DEBUG] Clicking raw button for 349237526
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349237526
+[SUCCESS] [RAW SAVED] 349237526_d8b4c853-e6fc-4a12-9223-ed85da3b41d7.txt
+[RAW] Returned to main window
+[INSERTED] 822191596 | 2026-04-09 | 53.36
+[RAW] Opened menu for 822191596
+[RAW DEBUG] Clicking raw button for 822191596
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 822191596
+[SUCCESS] [RAW SAVED] 822191596_997b1693-cfa3-4662-bfce-233d1abce8b0.txt
+[RAW] Returned to main window
+[INSERTED] 320930835 | 2026-04-09 | 0.0
+[RAW] Opened menu for 320930835
+[RAW DEBUG] Clicking raw button for 320930835
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 320930835
+[SUCCESS] [RAW SAVED] 320930835_4a4086c2-b34d-4188-a725-8e97e38facf3.txt
+[RAW] Returned to main window
+[INSERTED] V1524775 | 2026-04-09 | 251.54
+[RAW] Opened menu for V1524775
+[RAW DEBUG] Clicking raw button for V1524775
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V1524775
+[SUCCESS] [RAW SAVED] V1524775_af7cbceb-e97c-4bbe-9b32-3e28db1df7d7.txt
+[RAW] Returned to main window
+[INSERTED] W356017015 | 2026-04-09 | 0.0
+[RAW] Opened menu for W356017015
+[RAW DEBUG] Clicking raw button for W356017015
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W356017015
+[SUCCESS] [RAW SAVED] W356017015_62b8dca4-dc74-4741-b0e9-e1c25ccbc263.txt
+[RAW] Returned to main window
+[INSERTED] W356017014 | 2026-04-09 | 906.97
+[RAW] Opened menu for W356017014
+[RAW DEBUG] Clicking raw button for W356017014
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for W356017014
+[SUCCESS] [RAW SAVED] W356017014_2f49f3e7-b267-4ef7-ae4f-4ed3e2a32aed.txt
+[RAW] Returned to main window
+[INSERTED] 52299222 | 2026-04-09 | 101.07
+[RAW] Opened menu for 52299222
+[RAW DEBUG] Clicking raw button for 52299222
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 52299222
+[SUCCESS] [RAW SAVED] 52299222_837c0d7d-fb3e-4e95-9b2b-82d3c7832795.txt
+[RAW] Returned to main window
+[INSERTED] 130388013 | 2026-04-08 | 159.94
+[RAW] Opened menu for 130388013
+[RAW DEBUG] Clicking raw button for 130388013
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 130388013
+[SUCCESS] [RAW SAVED] 130388013_0998c88c-ee7b-4911-9c65-5ad1ccc07d6e.txt
+[RAW] Returned to main window
+[INSERTED] 190419579 | 2026-04-08 | 66.86
+[RAW] Opened menu for 190419579
+[RAW DEBUG] Clicking raw button for 190419579
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 190419579
+[SUCCESS] [RAW SAVED] 190419579_97f8e071-2616-4d3e-8588-87597ecf1ae9.txt
+[RAW] Returned to main window
+[INSERTED] 423644385 | 2026-04-08 | 299.7
+[RAW] Opened menu for 423644385
+[RAW DEBUG] Clicking raw button for 423644385
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 423644385
+[SUCCESS] [RAW SAVED] 423644385_f38cd282-3727-4ea9-92bb-2e4d16082956.txt
+[RAW] Returned to main window
+[INSERTED] 705866077 | 2026-04-08 | 350.64
+[RAW] Opened menu for 705866077
+[RAW DEBUG] Clicking raw button for 705866077
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 705866077
+[SUCCESS] [RAW SAVED] 705866077_3cf54d3a-17f1-4a77-86e6-66e52c746cd9.txt
+[RAW] Returned to main window
+[INSERTED] 213047974 | 2026-04-08 | 3828.18
+[RAW] Opened menu for 213047974
+[RAW DEBUG] Clicking raw button for 213047974
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 213047974
+[SUCCESS] [RAW SAVED] 213047974_2518faeb-fc77-49be-81d2-132668e89a5e.txt
+[RAW] Returned to main window
+[INSERTED] 260408190158954 | 2026-04-08 | 0.0
+[RAW] Opened menu for 260408190158954
+[RAW DEBUG] Clicking raw button for 260408190158954
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260408190158954
+[SUCCESS] [RAW SAVED] 260408190158954_3418c9a3-8803-48fe-8117-5abd3e77dbb6.txt
+[RAW] Returned to main window
+[INSERTED] 260408190169760 | 2026-04-08 | 0.0
+[RAW] Opened menu for 260408190169760
+[RAW DEBUG] Clicking raw button for 260408190169760
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260408190169760
+[SUCCESS] [RAW SAVED] 260408190169760_28428502-b817-410e-bce3-5f9a0a233e0d.txt
+[RAW] Returned to main window
+[INSERTED] 601300921240 | 2026-04-08 | 96.97
+[RAW] Opened menu for 601300921240
+[RAW DEBUG] Clicking raw button for 601300921240
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 601300921240
+[SUCCESS] [RAW SAVED] 601300921240_684c281c-bb50-46f0-831f-4f724d6498af.txt
+[RAW] Returned to main window
+[INSERTED] 260404090054153 | 2026-04-08 | 557.12
+[RAW] Opened menu for 260404090054153
+[RAW DEBUG] Clicking raw button for 260404090054153
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260404090054153
+[SUCCESS] [RAW SAVED] 260404090054153_715ceef5-dce2-429f-86d1-fb00dbf2e8ed.txt
+[RAW] Returned to main window
+[INSERTED] 260404090054152 | 2026-04-08 | 26.43
+[RAW] Opened menu for 260404090054152
+[RAW DEBUG] Clicking raw button for 260404090054152
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 260404090054152
+[SUCCESS] [RAW SAVED] 260404090054152_a1ef388c-2a6e-4888-b9ab-fdd95a56fe20.txt
+[RAW] Returned to main window
+[INSERTED] 861305631 | 2026-04-08 | 43.66
+[RAW] Opened menu for 861305631
+[RAW DEBUG] Clicking raw button for 861305631
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 861305631
+[SUCCESS] [RAW SAVED] 861305631_8ec31b4e-8158-4572-b4c8-4213ef5d9770.txt
+[RAW] Returned to main window
+[INSERTED] CR03331164455636090512635 | 2026-04-08 | 0.0
+[RAW] Opened menu for CR03331164455636090512635
+[RAW DEBUG] Clicking raw button for CR03331164455636090512635
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for CR03331164455636090512635
+[SUCCESS] [RAW SAVED] CR03331164455636090512635_22079b22-3e08-4e14-8c66-da5e9c39d934.txt
+[RAW] Returned to main window
+[INSERTED] 860990402 | 2026-04-08 | 39.53
+[RAW] Opened menu for 860990402
+[RAW DEBUG] Clicking raw button for 860990402
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 860990402
+[SUCCESS] [RAW SAVED] 860990402_9a847021-e67c-464d-b100-fa8696c179d0.txt
+[RAW] Returned to main window
+[INSERTED] 2522312605 | 2026-04-08 | 31.32
+[RAW] Opened menu for 2522312605
+[RAW DEBUG] Clicking raw button for 2522312605
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 2522312605
+[SUCCESS] [RAW SAVED] 2522312605_b10affbc-4732-4a30-8d24-f70279a2d4a0.txt
+[RAW] Returned to main window
+[INSERTED] 52195051 | 2026-04-08 | 0.0
+[RAW] Opened menu for 52195051
+[RAW DEBUG] Clicking raw button for 52195051
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 52195051
+[SUCCESS] [RAW SAVED] 52195051_0b8f4782-28b6-4885-af14-0fc1fcd0adb8.txt
+[RAW] Returned to main window
+[INSERTED] V1449359 | 2026-04-08 | 2624.64
+[RAW] Opened menu for V1449359
+[RAW DEBUG] Clicking raw button for V1449359
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for V1449359
+[SUCCESS] [RAW SAVED] V1449359_69b642b2-e5ae-42cb-9e9c-b7323061e8ae.txt
+[RAW] Returned to main window
+[RAW SKIPPED - PENDING ERA] 20260402107038170EZPS0
+[INSERTED] 11420487513 | 2026-04-07 | 433.57
+[RAW] Opened menu for 11420487513
+[RAW DEBUG] Clicking raw button for 11420487513
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 11420487513
+[SUCCESS] [RAW SAVED] 11420487513_9d1dadd7-5525-4a0c-9645-20bcad5e83f4.txt
+[RAW] Returned to main window
+[INSERTED] 818821463 | 2026-04-07 | 8143.96
+[RAW] Opened menu for 818821463
+[RAW DEBUG] Clicking raw button for 818821463
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 818821463
+[SUCCESS] [RAW SAVED] 818821463_33d3d4e7-e46e-4466-9c2a-645638db68d1.txt
+[RAW] Returned to main window
+[INSERTED] 349229694 | 2026-04-07 | 0.0
+[RAW] Opened menu for 349229694
+[RAW DEBUG] Clicking raw button for 349229694
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 349229694
+[SUCCESS] [RAW SAVED] 349229694_b8f890a0-6ca2-44cf-840b-d02b0e2f1ce6.txt
+[RAW] Returned to main window
+[INSERTED] 822173670 | 2026-04-07 | 69.83
+[RAW] Opened menu for 822173670
+[RAW DEBUG] Clicking raw button for 822173670
+[RAW] Clicked View raw 835
+[RAW DEBUG] Window count = 2
+[RAW] Switched to raw window
+[RAW] Content extracted for 822173670
+[SUCCESS] [RAW SAVED] 822173670_2f9c512c-41de-4ea5-af4e-f0b8c1d4c401.txt
+[RAW] Returned to main window
+NEW RECORDS = 49
+SKIPPED RECORDS = 0
+TOTAL MASTER ROWS = 239
+
+Checking NEXT button...
+Current range: 
+NEXT clicked
+New range: 251 – 300 of 10067
+
+FINAL TOTAL ROWS = 239
+Closing browser
+[SUCCESS] nextech execution finished
+------------ END -----------
